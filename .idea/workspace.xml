@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -67,6 +63,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612719269090</updated>
       <workItem from="1612719270138" duration="1344000" />
+      <workItem from="1612721819590" duration="66000" />
+      <workItem from="1612721971314" duration="384000" />
+      <workItem from="1612722847700" duration="40000" />
     </task>
     <servers />
   </component>
@@ -83,16 +82,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="201" key="#Plugins" timestamp="1612721941062">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="201" key="#Plugins/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612721941062" />
     <state x="821" y="458" key="Github.ShareDialog" timestamp="1612720612121">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="821" y="458" key="Github.ShareDialog/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612720612121" />
-    <state x="461" y="205" key="SettingsEditor" timestamp="1612719546864">
+    <state x="461" y="205" key="SettingsEditor" timestamp="1612722353604">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="461" y="205" key="SettingsEditor/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612719546864" />
+    <state x="461" y="205" key="SettingsEditor/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612722353604" />
     <state x="761" y="466" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612720604385">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
