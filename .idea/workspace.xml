@@ -10,8 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="">
+    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="add new dependencies">
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JupyterTrust" id="d9a11603-fa4d-488b-a7de-664ed2bf4cac" />
   <component name="ProjectId" id="1oAAxKfSUCJ01cLlLXcAciSEDRj" />
@@ -39,7 +59,26 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prj\aod_forum_react\src\assets" />
+      <recent name="D:\prj\aod_forum_react\public" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -66,7 +105,17 @@
       <workItem from="1612721819590" duration="66000" />
       <workItem from="1612721971314" duration="384000" />
       <workItem from="1612722847700" duration="40000" />
+      <workItem from="1612724354816" duration="1780000" />
+      <workItem from="1612796650354" duration="12129000" />
     </task>
+    <task id="LOCAL-00001" summary="add new dependencies">
+      <created>1612724600711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612724600711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,22 +133,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="201" key="#Plugins" timestamp="1612721941062">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="552" y="201" key="#Plugins/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612721941062" />
-    <state x="821" y="458" key="Github.ShareDialog" timestamp="1612720612121">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="821" y="458" key="Github.ShareDialog/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612720612121" />
-    <state x="461" y="205" key="SettingsEditor" timestamp="1612722353604">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="461" y="205" key="SettingsEditor/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612722353604" />
-    <state x="761" y="466" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612720604385">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="761" y="466" key="git4idea.remote.GitConfigureRemotesDialog/-1920.40.1920.1160/0.40.1920.1040@0.40.1920.1040" timestamp="1612720604385" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new dependencies" />
   </component>
 </project>

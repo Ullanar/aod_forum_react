@@ -1,0 +1,198 @@
+.App {
+  // opacity: 0.8;
+  background-color: #171718;
+}
+
+.wrapper {
+  min-height: 100vh;
+  //overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  color: aliceblue;
+
+}
+
+.header {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    margin: 1.5% 0 1.5% 8%;
+
+    .logo_aod {
+      width: 18%;
+    }
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+
+    .main_actions {
+      display: flex;
+      margin: 0 0 0 8%;
+
+      .menu_item {
+        margin: 0 10px 0 0;
+        color: darkgrey;
+      }
+
+      .menu_item:hover {
+        color: aliceblue;
+      }
+
+    }
+
+    .side_actions {
+      display: flex;
+      font-size: 15px;
+      margin: 0 8% 0 0;
+
+      .side_item {
+        margin: 0 10px 0 0;
+        color: darkgrey;
+      }
+
+      .side_item:hover {
+        color: aliceblue;
+      }
+    }
+  }
+
+  .search {
+    height: 50px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    background: #152A31;
+
+    .search_container {
+      margin: 0 0 0 8%;
+      display: flex;
+
+
+      .search_item {
+        margin: 1em 1% 0 0;
+      }
+
+      .search_item:hover {
+        color: cornsilk;
+      }
+
+    }
+
+  }
+
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8% 0 8%;
+
+  .side_content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .our_team {
+      .our_team_header {
+        color: #0091D0;
+        font-style: oblique;
+        font-size: 18px;
+      }
+
+      .our_team_titles {
+        font-size: 15px;
+        color: darkgrey;
+       margin: 0 0 0 50px;
+
+        .team_title {
+          display: flex;
+
+          .admin_avatar {
+            margin: 0 10px 0 0;
+          }
+          .admin_name{
+            margin: 1em 0 0 0;
+          }
+        }
+
+      }
+    }
+
+    .online_users {
+      margin: 20% 0 0 0;
+
+    }
+
+    .last_themes {
+      margin: 20% 0 0 0;
+
+    }
+
+    .statistic {
+      margin: 20% 0 0 0;
+
+    }
+
+  }
+}
+
+.footer {
+  background: #152A31;
+  height: 80px;
+  user-select: none;
+
+  .footer_container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_actions {
+    display: flex;
+
+    .menu_item {
+      margin: 2em 10px 0 0;
+    }
+
+    .menu_item:hover {
+      color: antiquewhite;
+    }
+  }
+
+  .social {
+    margin: 0 10% 0 0;
+    display: flex;
+
+    .social_text {
+      margin: 2em 0 0 0;
+    }
+
+    .icons {
+      margin: 0.7em 10px 0 10px;
+      display: flex;
+      font-size: 30px;
+
+      .social_icon {
+        margin: 0 0 0 5px;
+      }
+
+      .social_icon:hover {
+        color: antiquewhite;
+      }
+
+    }
+
+  }
+
+  .copyright {
+    margin: 3em 0 0 0;
+    font-size: 12px;
+    color: darkgrey;
+  }
+
+}
