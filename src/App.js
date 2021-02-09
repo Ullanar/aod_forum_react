@@ -14,6 +14,7 @@ import {Avatar} from 'antd';
 
 
 import logoAoD from './assets/logo.png'
+import OnlineUsers from "./components/testUsers";
 
 
 function App() {
@@ -128,6 +129,7 @@ function App() {
 
                         <div className="online_users">
                             Пользователи онлайн
+                            <OnlineUsers />
                         </div>
 
                         <div className="last_themes">
