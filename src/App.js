@@ -8,7 +8,8 @@ import {
     InstagramOutlined,
     FacebookOutlined,
     CopyrightOutlined,
-    UserOutlined
+    UserOutlined,
+    TeamOutlined
 } from "@ant-design/icons";
 import {Avatar} from 'antd';
 
@@ -82,7 +83,7 @@ function App() {
                         <div className="our_team">
 
                             <div className="our_team_header">
-                                НАША КОМАНДА
+                                <TeamOutlined/> НАША КОМАНДА
                             </div>
 
                             <br/>
@@ -128,8 +129,18 @@ function App() {
                         </div>
 
                         <div className="online_users">
-                            Пользователи онлайн
-                            <OnlineUsers />
+
+                            <div className="online_users_header">
+                                <TeamOutlined/> ПОЛЬЗОВАТЕЛИ ОНЛАЙН
+                            </div>
+                            <div className="online_users_titles">
+                                <OnlineUsers/>
+                            </div>
+                            <br/>
+                            <div className="user_statistic">
+                                Всего: 72 (пользователей: 40, гостей 32)
+                            </div>
+
                         </div>
 
                         <div className="last_themes">
@@ -170,8 +181,7 @@ function App() {
 
                         <div className="social">
 
-                            <div className="social_text">
-                                МЫ В СОЦИАЛЬНЫХ СЕТЯХ
+                            <div className="social_text">МЫ В СОЦИАЛЬНЫХ СЕТЯХ
                             </div>
 
                             <div className="icons">

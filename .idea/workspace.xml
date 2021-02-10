@@ -10,16 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="add a lot of css :)">
-      <change afterPath="$PROJECT_DIR$/src/DAL/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/mainReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sagas/index_sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sagas/mainSaga.js" afterDir="false" />
+    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="add redux and redux-sagas">
+      <change afterPath="$PROJECT_DIR$/src/assets/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,23 +60,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\prj\aod_forum_react\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\prj\aod_forum_react\src\assets" />
       <recent name="D:\prj\aod_forum_react\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -108,7 +97,9 @@
       <workItem from="1612722847700" duration="40000" />
       <workItem from="1612724354816" duration="1780000" />
       <workItem from="1612796650354" duration="12433000" />
-      <workItem from="1612890241194" duration="5831000" />
+      <workItem from="1612890241194" duration="7530000" />
+      <workItem from="1612918269437" duration="1308000" />
+      <workItem from="1612996098596" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="add new dependencies">
       <created>1612724600711</created>
@@ -124,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612808823962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add redux and redux-sagas">
+      <created>1612896142414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612896142414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new dependencies" />
     <MESSAGE value="add a lot of css :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a lot of css :)" />
+    <MESSAGE value="add redux and redux-sagas" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux and redux-sagas" />
   </component>
 </project>

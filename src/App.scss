@@ -90,7 +90,7 @@
 .content {
   display: flex;
   justify-content: space-between;
-  margin: 0 8% 0 8%;
+  margin: 4em 8% 0 8%;
 
   .side_content {
 
@@ -99,6 +99,7 @@
     justify-content: space-between;
 
     .our_team {
+
       .our_team_header {
         color: #0091D0;
         font-style: oblique;
@@ -108,7 +109,7 @@
       .our_team_titles {
         font-size: 15px;
         color: darkgrey;
-       margin: 0 0 0 50px;
+        margin: 0 0 0 50px;
 
         .team_title {
           display: flex;
@@ -116,7 +117,8 @@
           .admin_avatar {
             margin: 0 10px 0 0;
           }
-          .admin_name{
+
+          .admin_name {
             margin: 1em 0 0 0;
           }
         }
@@ -125,17 +127,31 @@
     }
 
     .online_users {
-      margin: 20% 0 0 0;
+      margin: 50px 0 0 0;
 
+      .online_users_header {
+        color: #0091D0;
+        font-style: oblique;
+        font-size: 18px;
+      }
+
+      .online_users_titles {
+        font-size: 15px;
+        color: darkgrey;
+        margin: 0 0 0 50px;
+      }
+      .user_statistic{
+        font-size: 15px;
+      }
     }
 
     .last_themes {
-      margin: 20% 0 0 0;
+      margin: 50px 0 0 0;
 
     }
 
     .statistic {
-      margin: 20% 0 0 0;
+      margin: 50px 0 100px 0;
 
     }
 
