@@ -10,10 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="add redux and redux-sagas">
-      <change afterPath="$PROJECT_DIR$/src/assets/background.png" afterDir="false" />
+    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="fix css">
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/mainActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/mainLogo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/sideActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mainPage/mainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
     </list>
@@ -64,11 +69,23 @@
       <recent name="D:\prj\aod_forum_react\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prj\aod_forum_react\src\components\alwaysDisplayed\header" />
       <recent name="D:\prj\aod_forum_react\src\assets" />
       <recent name="D:\prj\aod_forum_react\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -99,7 +116,8 @@
       <workItem from="1612796650354" duration="12433000" />
       <workItem from="1612890241194" duration="7530000" />
       <workItem from="1612918269437" duration="1308000" />
-      <workItem from="1612996098596" duration="1619000" />
+      <workItem from="1612996098596" duration="1896000" />
+      <workItem from="1613004653285" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="add new dependencies">
       <created>1612724600711</created>
@@ -122,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612896142414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix css">
+      <created>1612997974486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612997974486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +169,7 @@
     <MESSAGE value="add new dependencies" />
     <MESSAGE value="add a lot of css :)" />
     <MESSAGE value="add redux and redux-sagas" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux and redux-sagas" />
+    <MESSAGE value="fix css" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix css" />
   </component>
 </project>
