@@ -1,10 +1,10 @@
 import React from 'react'
 import {useDispatch, useSelector} from "react-redux";
-import {getUsersAC} from "../redux/mainReducer";
+import {getUsersAC} from "../../redux/mainReducer";
 import {useEffect} from 'react'
 import {Spin} from 'antd';
 
-function OnlineUsers() {
+function OnlineUsersList() {
 
     const dispatch = useDispatch()
     const usersData = useSelector(state => state.main.users)
@@ -33,4 +33,4 @@ function OnlineUsers() {
 
 }
 
-export default OnlineUsers
+export default OnlineUsersList
