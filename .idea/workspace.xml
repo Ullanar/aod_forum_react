@@ -10,17 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="fix css">
-      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/mainActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/mainLogo.js" afterDir="false" />
+    <list default="true" id="3dc259ca-627b-4087-8433-9c1552fbb684" name="Default Changelist" comment="decompose header component">
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer/footerActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer/footerCopyright.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/footer/footerSocialCredentials.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alwaysDisplayed/header/sideActions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/mainPage/mainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
       <recent name="D:\prj\aod_forum_react\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prj\aod_forum_react\src\components\alwaysDisplayed\footer" />
       <recent name="D:\prj\aod_forum_react\src\components\alwaysDisplayed\header" />
       <recent name="D:\prj\aod_forum_react\src\assets" />
       <recent name="D:\prj\aod_forum_react\public" />
@@ -117,7 +116,7 @@
       <workItem from="1612890241194" duration="7530000" />
       <workItem from="1612918269437" duration="1308000" />
       <workItem from="1612996098596" duration="1896000" />
-      <workItem from="1613004653285" duration="1218000" />
+      <workItem from="1613004653285" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="add new dependencies">
       <created>1612724600711</created>
@@ -147,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612997974486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="decompose app component">
+      <created>1613005926097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613005926097</updated>
+    </task>
+    <task id="LOCAL-00006" summary="decompose header component">
+      <created>1613005950745</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613005950745</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +183,8 @@
     <MESSAGE value="add a lot of css :)" />
     <MESSAGE value="add redux and redux-sagas" />
     <MESSAGE value="fix css" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix css" />
+    <MESSAGE value="decompose app component" />
+    <MESSAGE value="decompose header component" />
+    <option name="LAST_COMMIT_MESSAGE" value="decompose header component" />
   </component>
 </project>
